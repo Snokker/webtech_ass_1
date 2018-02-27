@@ -32,6 +32,24 @@ p {
     margin: auto;
 }
 
+a:link {
+    color: crimson;
+    border-bottom: dashed;
+    border-bottom: 6px;
+}
+
+a:visited {
+    color: lightseagreen;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+a:active {
+    color: lightseagreen;
+}
+
 .button1{
     background-color: crimson;
     border: none;
@@ -50,6 +68,6 @@ p {
 
 img {
     border-radius: 8px;
-
-
 }
+
+
