@@ -71,12 +71,12 @@ nav {
     text-align: center;
 }
 
-.internLink {
+.bookMark {
     color: dimgrey;
     text-decoration-color: crimson;
 }
 
-.internLink {
+.bookMark:visited, .bookMark:hover {
     text-decoration-color: lightseagreen;
 }
 
@@ -85,10 +85,11 @@ nav {
 }
 
 figure {
-    position: relative;
+    position: center;
 }
 
 img {
+    position: inherit;
     border-radius: 8px;
 }
 
