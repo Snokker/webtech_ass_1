@@ -135,3 +135,7 @@ table, th, td {
 th {
     font-style: italic;
 }
+
+.midden {
+    text-align: center;
+}
