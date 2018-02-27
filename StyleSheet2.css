@@ -1,5 +1,4 @@
-﻿
-body {
+﻿body {
     background-color: cornsilk;
 }
 
@@ -14,10 +13,11 @@ h2 {
     color: crimson;
     text-align: center;
     font-family: Merriweather;
+    font-size: 32px;
 }
 
 h3 {
-    color:dimgrey;
+    color: dimgrey;
     text-align: center;
     font-style: italic;
     font-size: 20px;
@@ -25,10 +25,10 @@ h3 {
 }
 
 p {
-    color:dimgrey;
+    color: dimgrey;
     font-family: Merriweather;
     font-size: 18px;
-    width: 700px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -42,11 +42,11 @@ a:visited {
     color: dimgrey;
 }
 
-a:hover, a:active {
+a:hover {
     color: lightseagreen;
 }
 
-.button1{
+.navLink {
     background-color: crimson;
     border: none;
     border-radius: 6px;
@@ -55,18 +55,23 @@ a:hover, a:active {
     display: inline-block;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 20px;
+    width: 150px;
+    border-bottom: none;
 }
 
-.button1:hover {
-   background-color:lightseagreen;    
+.navLink:hover {
+    color: beige;
+    background-color: lightseagreen;
+    border-bottom: none;
 }
 
 nav {
-    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 img {
+    position: relative;
     border-radius: 8px;
 }
-
-
