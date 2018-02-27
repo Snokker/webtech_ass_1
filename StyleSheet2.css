@@ -22,6 +22,7 @@ h3 {
     font-style: italic;
     font-size: 20px;
     font-family: Merriweather;
+    font-weight: 200;
 }
 
 p {
@@ -32,10 +33,9 @@ p {
     margin: auto;
 }
 
+
 a:link {
     color: crimson;
-    border-bottom: dashed;
-    border-bottom: 6px;
 }
 
 a:visited {
@@ -46,7 +46,7 @@ a:hover {
     color: lightseagreen;
 }
 
-.navLink {
+.navLink, .navLink:visited {
     background-color: crimson;
     border: none;
     border-radius: 6px;
@@ -56,7 +56,7 @@ a:hover {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 20px;
     width: 150px;
-    border-bottom: none;
+    text-decoration: none !important;
 }
 
 .navLink:hover {
@@ -71,7 +71,40 @@ nav {
     text-align: center;
 }
 
-img {
+.internLink {
+    color: dimgrey;
+    text-decoration-color: crimson;
+}
+
+.internLink {
+    text-decoration-color: lightseagreen;
+}
+
+.externLink {
+    font-weight: 700;
+}
+
+figure {
     position: relative;
+}
+
+img {
     border-radius: 8px;
+}
+
+figcaption {
+    color: dimgrey;
+    font-style: italic;
+    font-size: 12px;
+    font-family: Merriweather;
+    font-weight: 200;
+}
+
+footer {
+    color: dimgrey;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Merriweather;
+    font-weight: 200;
 }
