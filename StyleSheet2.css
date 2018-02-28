@@ -1,6 +1,4 @@
-﻿body {
-    background-color: cornsilk;
-}
+﻿body { background-color: cornsilk; }
 
 h1 {
     color: crimson;
@@ -34,17 +32,11 @@ p {
 }
 
 
-a:link {
-    color: crimson;
-}
+a:link { color: crimson; }
 
-a:visited {
-    color: dimgrey;
-}
+a:visited { color: dimgrey; }
 
-a:hover {
-    color: lightseagreen;
-}
+a:hover { color: lightseagreen; }
 
 .navLink, .navLink:visited {
     background-color: crimson;
@@ -76,17 +68,11 @@ nav {
     text-decoration-color: crimson;
 }
 
-.bookMark:visited, .bookMark:hover {
-    text-decoration-color: lightseagreen;
-}
+.bookMark:visited, .bookMark:hover { text-decoration-color: lightseagreen;}
 
-.externLink {
-    font-weight: 700;
-}
+.externLink { font-weight: 700;}
 
-figure {
-    position: center;
-}
+figure { position: center; }
 
 img {
     display: block;
@@ -129,13 +115,6 @@ table {
     margin: auto;
 }
 
-table, th, td {
-    border: 1px solid black;
-}
-th {
-    font-style: italic;
-}
+table, th, td { border: 1px dimgrey;}
+th { font-style: italic; }
 
-.midden {
-    text-align: center;
-}
