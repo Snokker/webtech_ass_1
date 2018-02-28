@@ -4,7 +4,7 @@ h1 {
     color: crimson;
     text-align: center;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 h2 {
@@ -43,7 +43,7 @@ a:hover { color: lightseagreen; }
     background-color: crimson;
     border: none;
     border-radius: 6px;
-    color: beige;
+    color: beige !important;
     padding: 15px 32px;
     display: inline-block;
     font-family: 'Archivo Narrow', sans-serif;
@@ -72,8 +72,6 @@ nav {
 .bookMark:visited, .bookMark:hover { text-decoration-color: lightseagreen;}
 
 .externLink { font-weight: 700;}
-
-figure { position: center; }
 
 img {
     display: block;
@@ -116,6 +114,6 @@ table {
     margin: auto;
 }
 
-table, th, td { border: 1px dimgrey;}
+table, th, td { border: 1px solid dimgrey;}
 th { font-style: italic; }
 
